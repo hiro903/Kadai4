@@ -36,10 +36,4 @@ public class BasicCosmetics {
         this.price = price;
     }
 
-    //getterとsetterは省略
-
-
 }
-
-
-

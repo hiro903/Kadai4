@@ -6,13 +6,15 @@ public class ForLoop {
                 System.out.println("sumが30を超えたため処理を中断します。");
                 break;
             }
-            if (i%2 == 0) {
+            if (i % 2 == 0) {
                 printStar(i);
                 sum += i;
             }
         }
     }
+
     private static void printStar(final int num) {
         System.out.println("*".repeat(num));
     }
+
 }
